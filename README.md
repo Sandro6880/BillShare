@@ -32,9 +32,24 @@ Erstellen einer Konsolenanwendung zum Testen der Struktur. Projektname wird wie 
 **Hinweis:** Im weiterem Ausbau werde noch weitere Projekte hinzugefügt (z.B: Rest-Service).
 + **Schritt 6**  
 Abhängigkeiten definieren.
-## Schnittstellen definieren
+## Projekt: Schnittstellen
+
+### Schnittstellen definieren
 
 ![Schnittstellen](Contracts.png)
 
+##Projekt: Logik
 
+### Entitäten definieren
+![Entitäten](Entities.png)
 
+### Weitere Aktionen
+
+Folgende NuGet-Packages hinzufügen:
++ **Microsoft.EntityFrameworkCore**
++ **Microsoft.EntityFrameworkCore.SqlServer**
++ **Microsoft.EntityFrameworkCore.Tools**
+
+Wenn die Migration verwendet wird, dann muss zur Konsolen-Anwendung das folgende
+  Nuget-Paket hinzugefügt werden: 
++ **Microsoft.EntityFrameworkCore.Design**
